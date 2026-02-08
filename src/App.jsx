@@ -1,14 +1,13 @@
-import "./App.css";
-
 function App() {
+  // state (l'état, les données de l'application)
+
+  // fonctions (les comportements de l'application)
+
+  // affichage (le rendu de l'application)
   return (
-    <>
-      <div>
-        <h1>Mon Application React</h1>
-        <p>Bien Venu dans mon application React!</p>
-        <p>Faites vous plaisir !</p>
-      </div>
-    </>
+    <div>
+      <h1>Mon application React</h1>
+    </div>
   );
 }
 
