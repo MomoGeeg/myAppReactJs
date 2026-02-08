@@ -1,9 +1,8 @@
-import { useState } from "react";
-import LoginPage from "./Components/Pages/LoginPage/LoginPage";
+import LoginPage from "./Components/Pages/login/LoginPage";
 
 function App() {
   // state (l'état, les données de l'application)
-  const [name, setName] = useState("");
+  //const [name, setName] = useState("");
 
   // fonctions (les comportements de l'application)
   // const handleSubmit = (e) => {
