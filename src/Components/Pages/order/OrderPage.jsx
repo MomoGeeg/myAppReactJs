@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 export default function OrderPage() {
+  const { userName } = useParams();
   return (
     <div>
-      <h1>Bonjour !</h1>
+      <h1>Bonjour {userName} !</h1>
 
       <p>Voici votre espace de commande.</p>
 
