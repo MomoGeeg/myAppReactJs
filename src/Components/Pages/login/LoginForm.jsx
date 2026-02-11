@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function LoginForm() {
   // state (l'état, les données de l'application)
@@ -26,7 +27,9 @@ export default function LoginForm() {
           value={inputValue}
           onChange={handleChange}
         />
-        <button>Accédez à votre espace</button>
+        <Link to="/order">
+          <button type="submit">Accédez à votre espace</button>
+        </Link>
       </form>
     </div>
   );
